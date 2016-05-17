@@ -1,0 +1,50 @@
+# Build settings
+permalink   : /portfolio/:year/:title/
+markdown    : kramdown
+highlighter : rouge
+gems: [jekyll-paginate]
+
+paginate: 5
+paginate_path: "/portfolio/page/:num/"
+comments: false
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed # expanded
+
+# SEO settings
+title: Marc-André FL
+description: "Marc-André FL first portfolio"
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+url: http://marcandrefl.github.io
+baseurl: "/MarcAndreFL"
+repo: https://github.com/MarcAndreFL/marcandrefl.github.io
+
+# Author settings
+author:
+  name      : Marc-André Fortin-Leclerc
+  job       : Gameplay Programmer
+  bio       : "I am fresh out of university and currently looking for opportunities in the game industry.  Take a look at my portfolio!"
+  thumb     : /images/author.jpg
+  email     : marcfl20@gmail.com
+  url       : http://marcandrefl.github.io/
+  github    : https://github.com/MarcAndreFL
+  twitter   : https://twitter.com/marcfl20
+  facebook  : https://www.facebook.com/marc.fortin.524
+  linkedin  : https://ca.linkedin.com/in/marc-andré-fortin-leclerc-4242b511a
+  google    : https://plus.google.com/u/0/102022343790935571218
+
+# navbar pages
+navbar:
+  - slug: 'About Me'
+    title: 'About Me'
+  # - slug: resume
+  #   title: Resume
+  # - slug: skills
+  #   title: Skills
+  - slug: portfolio
+    title: Portfolio
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
