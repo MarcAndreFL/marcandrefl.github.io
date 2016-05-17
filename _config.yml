@@ -8,7 +8,6 @@ paginate: 5
 paginate_path: "/portfolio/page/:num/"
 comments: false
 
-source: source
 destination: _site
 sass:
   sass_dir: _scss
@@ -18,8 +17,7 @@ sass:
 title: Marc-André FL
 description: "Marc-André FL first portfolio"
 keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://marcandrefl.github.io
-baseurl: "/MarcAndreFL"
+url: http://marcandrefl.github.io/
 repo: https://github.com/MarcAndreFL/marcandrefl.github.io
 
 # Author settings
