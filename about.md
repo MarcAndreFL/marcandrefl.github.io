@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Me
-permalink: /about me/
+title: About me
+permalink: /aboutme/
 ---
 
 I am a gameplay-programmer currently living in Quebec, Canada.  I have a bachelor's degree in computer science at UQAC (Université du Québec à Chicoutimi).  

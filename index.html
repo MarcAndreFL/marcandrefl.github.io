@@ -11,8 +11,10 @@ layout: home
     <h3>I'm <strong itemprop="name">{{ site.author.name }}</strong>, a <em itemprop="jobTitle">{{ site.author.job }}</em>.</h3>
     <h3>{{ site.author.bio }}</h3>
 
-    <a href="{{ '/about me' | prepend: site.baseurl }}" class="btn btn-ghost">about me</a>
-    <a href="{{ '/portfolio' | prepend: site.baseurl }}" class="btn btn-ghost">portfolio</a>
+	{% for item in site.navbar %}
+        <a href="{{ '/' | prepend: site.baseurl }}{{ item.slug }}" title="{{ item.title }}" class="btn btn-ghost">{{ item.title }}</a>
+    {% endfor %}
+    
 
     {% include social.html %}
 
