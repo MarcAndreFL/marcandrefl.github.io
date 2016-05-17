@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Sloth Ninja
-img: ../../../images/slothninja-splash.jpg
-src: url(../images/slothninja-splash.jpg)
+img: ../../../images/slothninja-splash.png
+src: url(../images/slothninja-splash.png)
 ---
 <h1 style="text-align:center">{{page.title}}</h1>
 ![game screenshot](../../../images/SlothNinja.jpg)

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Lost Wookie
-img: ../../../images/lostwookie-splash.jpg
-src: url(../images/lostwookie-splash.jpg)
+img: ../../../images/lostwookie-splash.png
+src: url(../images/lostwookie-splash.png)
 ---
 <h1 style="text-align:center">{{page.title}}</h1>
 ![game screenshot](../../../images/LostWookie.jpg)
