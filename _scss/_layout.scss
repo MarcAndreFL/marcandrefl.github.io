@@ -207,8 +207,9 @@ body.home {
 
   .dot {
     padding: 0px;
-	width: 300px;
-    border: 5px solid #337AB7
+    width: 300px;
+    border: 2px solid #101010;
+    -webkit-filter: drop-shadow(0px 9px 56px rgb(0, 66, 128));
   }
 
   h1 {
